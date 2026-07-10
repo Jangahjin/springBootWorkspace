@@ -8,8 +8,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Model 데이터 전송 테스트</h1>
-    <p>userId =${userId}</p>
-
+	 <h1>Model 데이터 전송 테스트</h1>
+	 <p>userId = "${member.userId}"></p>
+        <p>password ="${member.password}"</p>
+        
+        
+	<%--<c:forEach var="member" items="${list}">
+        <p>userId = "${member.userId}"></p>
+        <p>password ="${member.password}"</p>
+        <p>email = "${member.email}"</p>
+        <hr>
+        </c:forEach> --%>
 </body>
 </html>
